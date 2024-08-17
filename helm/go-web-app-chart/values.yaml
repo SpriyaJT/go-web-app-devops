@@ -9,12 +9,12 @@ image:
   repository: priyatjs/go-web-app
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "v1"
+  tag: "10430997164"
 =======
   repository: abhishekf5/go-web-app
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "10016307834"
+  tag: "10430997164"
 >>>>>>> b17ef0d110626d6cc5b8a5c2c521b683fe1f4265
 
 ingress:
