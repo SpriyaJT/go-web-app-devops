@@ -8,7 +8,7 @@ image:
   repository: priyatjs/go-web-app
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "10436701996"
+  tag: "10440073812"
 
 ingress:
   enabled: false
