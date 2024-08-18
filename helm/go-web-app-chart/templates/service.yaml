@@ -1,12 +1,7 @@
-<<<<<<< HEAD
-=======
-# Service for the application
->>>>>>> b17ef0d110626d6cc5b8a5c2c521b683fe1f4265
 apiVersion: v1
 kind: Service
 metadata:
   name: go-web-app
-<<<<<<< HEAD
   labels: 
     app: go-web-app
 spec:
@@ -17,15 +12,3 @@ spec:
     - protocol: TCP
       port: 80
       targetPort: 8080
-=======
-  labels:
-    app: go-web-app
-spec:
-  ports:
-  - port: 80
-    targetPort: 8080
-    protocol: TCP
-  selector:
-    app: go-web-app
-  type: ClusterIP
->>>>>>> b17ef0d110626d6cc5b8a5c2c521b683fe1f4265
